@@ -1,4 +1,5 @@
 require "rspec-puppet"
+require 'beaker-rspec/spec_helper'
 
 fixture_path = File.expand_path File.join(__FILE__, "..", "fixtures")
 
